@@ -1,0 +1,342 @@
+/* 
+ * @name: BusinessSite
+ * @date: 2014.01.28
+ * @author: Gregory Rose
+ */
+
+/*
+ * The CSS for the div that will hold the page's buttons
+ * as well as display the title. 
+ */
+
+/**
+ * rgba(255, 91, 0, 0.9);
+ * 
+ */
+.header{
+	margin: auto;
+	width: 980px;
+	height: 120px;
+	z-index: auto;
+	overflow: hidden;
+	position: relative;
+	background: rgba(224, 224, 224, 1);
+}
+
+.logo {
+	float: left;
+	width: 280px;
+	height: 120px;
+	position: relative;
+	background: rgba(255, 91, 0, 0.9);
+}
+
+.accent {
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	background: rgba(255, 255, 255, 1);
+}
+
+.accent1 {top: 0px; }
+.accent2 {top: 40px;}
+.accent3 {top: 80px;}
+.accent4 {left: 20px; top: 20px;}
+.accent5 {left: 20px; top: 60px;}
+.accent6 {left: 40px; top: 0px; }
+.accent7 {left: 40px; top: 40px;}
+.accent8 {left: 60px; top: 20px;}
+.accent9 {left: 80px; top: 0px; }
+
+.logo span {
+	font-size: 25px;
+	font-weight: 600;
+	padding-left: 15px;
+	font-family: Arial;
+	font-style: normal;
+	line-height: 190px;
+	padding-left: 40px;
+	font-variant: normal;
+	color: rgba(255, 255, 255, 1);
+}
+
+.menu {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	overflow: hidden;
+	position: relative;
+}
+
+.menu li {
+	float: left;
+	margin: 0px;
+	padding: 0px;
+}
+
+.menu a {
+	width: 130px;
+	height: 120px;
+	display: block;
+	line-height: 190px;
+	background: rgba(255, 91, 0, 0.9);
+	border-left: 10px solid rgba(255, 255, 255, 1);
+	
+	transition: background 1s;
+	-webkit-transition: background 1s;
+}
+
+.menu span {
+	font-size: 14px;
+	font-weight: 600;
+	padding-left: 15px;
+	font-family: Arial;
+	font-style: normal;
+	font-variant: normal;
+	color: rgba(255, 255, 255, 1);
+}
+
+.menu a:link {text-decoration:none;}
+.menu a:hover {background: rgba(64, 64, 64, 0.9);}
+
+.slideBox {
+	width: 980px; 
+	height: 400px;
+	margin: auto;
+	overflow:scroll;
+	position: relative;
+	background: rgba(255, 91, 0, 0.9);
+	border-top: 5px solid rgba(255, 255, 255, 1);
+	border-bottom: 5px solid rgba(255, 255, 255, 1);
+}
+
+.slideRoll {
+	width: 3920px;
+	height: 400px;
+	background: rgba(17, 49, 135, 0.9);
+}
+
+.slide {
+	float: left;
+	width: 980px; 
+	height: 400px;
+}
+
+.fill2 {background: rgba(255, 255, 255, 1);}
+.fill1 {background: rgba(255, 91, 0, 0.9);}
+
+.slide1 {background: /*rgba(61, 144, 210, 0.9);*/ rgba(255, 255, 255, 1);}
+.slide2 {background: /*rgba(255, 255, 255, 1);*/ rgba(255, 91, 0, 0.9);}
+.slide3 {background: /*rgba(104, 197, 79, 0.9);*/ rgba(255, 255, 255, 1);}
+.slide4 {background: rgba(255, 91, 0, 0.9);}
+
+.trim {
+	width: 25px;
+	height: 25px;
+	position: absolute;
+}
+
+.topTrim1 {top: 0px;}
+.topTrim2 {top: 50px;}
+.topTrim3 {top: 100px;}
+.topTrim4 {left: 25px; top: 25px;}
+.topTrim5 {left: 25px; top: 75px;}
+.topTrim6 {left: 50px; top: 0px; }
+.topTrim7 {left: 50px; top: 50px;}
+.topTrim8 {left: 75px; top: 25px;}
+.topTrim9 {left: 100px; top: 0px;}
+
+.baseTrim1 {left: 955px; top: 375px;}
+.baseTrim2 {left: 905px; top: 375px;}
+.baseTrim3 {left: 855px; top: 375px;}
+.baseTrim4 {left: 930px; top: 350px;}
+.baseTrim5 {left: 880px; top: 350px;}
+.baseTrim6 {left: 955px; top: 325px;}
+.baseTrim7 {left: 905px; top: 325px;}
+.baseTrim8 {left: 930px; top: 300px;}
+.baseTrim9 {left: 955px; top: 275px;}
+
+.brief { 
+	margin: auto;
+	width: 980px; 
+ 	height: 250px;
+ 	position: relative;
+ 	background: rgba(255, 255, 255, 1);
+ 	border-bottom: 5px solid rgba(255, 255, 255, 1);
+ }
+ 
+.recap {
+ 	margin: auto;
+	width: 980px;
+	height: 300px;
+	position: relative;
+ 	background: rgba(215, 223, 210, 1);
+ 	border-bottom: 5px solid rgba(255, 255, 255, 1);
+ }
+ 
+.footer {
+ 	margin: auto;
+	width: 980px;
+	height: 250px;
+	position: relative;
+ 	background: rgba(255, 91, 0, 0.9);
+ }
+ 
+.footer div {
+ 	margin: auto;
+ 	position: absolute;
+ }
+ 
+.hook {
+	top: 0px;
+	width: 630px;
+	height: 250px;
+}
+
+.hook p {
+	font-size: 13px;
+	padding-left: 50px;
+	font-family: Arial;
+	font-style: normal;
+	font-variant: normal;
+	color: rgba(255, 255, 255, 1);
+}
+
+.hook h3 {
+	height: 30px;
+	font-size: 20px;
+	font-family: Arial;
+	font-style: normal;
+	line-height: 50px;
+	padding-left: 45px;
+	font-variant: normal;
+	color: rgba(255, 255, 255, 1);
+}
+
+.hookButton {
+	height: 40px;
+	width: 110px;
+	position: absolute;
+	background: red;
+	left: 45px;
+	border-radius: 5px;
+	background: rgba(0, 118, 165, 0.9);
+	text-decoration:none;
+}
+
+.hookButton span {
+	font-size: 13px;
+	line-height: 40px;
+	font-family: Arial;
+	font-style: normal;
+	font-variant: normal;
+	padding-left: 20px;
+	color: rgba(255, 255, 255, 1);
+}
+
+.footerMenu {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	overflow: hidden;
+	position: absolute;
+	top: 190px;
+	left: 45px;
+}
+
+.footerMenu li {
+	float: left;
+	margin: 0px;
+	padding: 0px;
+}
+
+.footerMenu a {
+	width: 110px;
+	height: 40px;
+	display: block;
+	line-height: 55px;
+	border-right: 2.5px solid rgba(255, 255, 255, 1);
+}
+
+.footerMenu span {
+	font-size: 13px;
+	font-weight: 500;
+	padding-left: 15px;
+	font-family: Arial;
+	font-style: normal;
+	font-variant: normal;
+	color: rgba(255, 255, 255, 1);
+	
+	transition: color 1s;
+	-webkit-transition: color 1s;	
+}
+
+.footerMenu a:link {text-decoration:none;}
+.footerMenu span:hover {color: rgba(64, 64, 64, 0.9);}
+
+.follow {
+	left: 630px;
+	width: 350px;
+	height: 250px;
+}
+
+.follow h3 {
+	height: 10px;
+	font-weight: 550;
+	font-size: 20px;
+	font-family: Arial;
+	font-style: normal;
+	line-height: 50px;
+	padding-left: 45px;
+	font-variant: normal;
+	color: rgba(255, 255, 255, 1);
+}
+
+.follow .twitterHandle {
+	height: 0px;
+	font-size: 20px;
+	font-family: Arial;
+	font-style: normal;
+	line-height: 50px;
+	padding-left: 45px;
+	font-variant: normal;
+	color: rgba(0, 118, 165, 0.9);
+}
+
+.follow p {
+	line-height: 75px;
+	height: 0px;
+	font-size: 13px;
+	font-family: Arial;
+	font-style: normal;
+	padding-left: 45px;
+	color: rgba(255, 255, 255, 1);
+}
+.socialNetwork {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	overflow: hidden;
+	position: relative;
+	top: 85px;
+	left: 50px;
+}
+
+.socialNetwork li {
+	float: left;
+	margin: 0px;
+	padding: 0px;
+}
+
+.socialNetwork a {
+	width: 60px;
+	height: 45px;
+	display: block;
+	background-repeat: no-repeat;
+	background-image: url("images/socialNetwork.png");
+}
+
+.facebook {background-position: 3px 0px;}
+.linkedin {background-position: -58px 0px;}
+.twitter {background-position: -120px 0px;}
+.googleplus {background-position: -180px 0px;}
